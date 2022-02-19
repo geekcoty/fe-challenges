@@ -1,0 +1,15 @@
+*,
+*:after,
+*:before {
+  box-sizing: border-box;
+  margin: auto;
+}
+
+.global-container {
+  display: flex;
+  background-color: red;
+  font-size: 10rem;
+  text-align: end;
+}
+
+/*# sourceMappingURL=styles.css.map */
