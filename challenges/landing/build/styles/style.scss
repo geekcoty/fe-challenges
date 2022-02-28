@@ -23,14 +23,17 @@ $FontBody:"Open Sans", sans-serif;
 }
 .main-container{
   margin-top: 4rem;
+  font-family: $FontBody;
+  font-weight: 400;
   .sect1{
     margin-left: 0.625rem;
     display: flex;
     .sect1-article{
       .sect1-title{
         font-size: $TitleSize;
-        line-height: 3rem;
+        font-family: $FontHeadings;
         font-weight: 700;
+        line-height: 3rem;
       }
       .sect1-content{
       margin-top: 1rem;
@@ -65,8 +68,9 @@ $FontBody:"Open Sans", sans-serif;
        margin-top: 5rem;
       .sect2-title{
         font-size: $TitleSize;
+        font-family: $FontHeadings;
+        font-weight: 700;
         line-height: 3rem;
-        font-weight: 600;
       }
       .sect2-content{
       font-size: 1.3rem;
@@ -107,15 +111,17 @@ $FontBody:"Open Sans", sans-serif;
     background-color: hsl(238, 22%, 44%);
     color:white;
     .sect3-article{
-    margin-top: 5rem;
+   padding-top: 5rem;
       .sect3-title{
         font-size: 1.5rem;
         line-height: 3rem;
-        font-weight: 600;
+        font-weight: 700;
+        font-family: $FontHeadings;
         margin-left: 1.6rem;
         }
       .sect3-content{
           display: flex;
+          padding-bottom: 5rem;
         .sect3-paragraph{
           font-size: 0.9rem;
           font-family: $FontBody;
@@ -146,10 +152,36 @@ $FontBody:"Open Sans", sans-serif;
 
   
         }
-  .footer{
+}
+ .footer-container{
     background-color: hsl(243, 87%, 12%);
+    color:white;
+    font-family: $FontBody;
+    font-size: 1rem;
+    font-weight: 400;
+    .footer-header{
     .footer-logo{
+      fill: #fff;
+      margin: 2.5rem;
       width: 15%;
+      }
     }
-  }
+     .footer-data{
+      margin-left:  2.5rem
+    }
+    .footer-nav{
+      display: flex;
+      justify-content: center;
+      margin-top: -2.5rem;
+    }
+    .footer-menu{
+      padding: 1rem;
+    }
+    .footer-social{
+
+      padding: 1rem;
+    }
+    .attribution{
+      margin-left: 2.5rem;
+    }
 }
