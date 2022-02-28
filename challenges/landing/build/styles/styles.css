@@ -1,29 +1,36 @@
+.header-container {
+  padding: 1rem;
+}
 .header-container .nav-container {
   display: flex;
-  margin: 2.5rem;
   justify-content: space-between;
 }
 .header-container .nav-container .nav-menu {
   display: flex;
+  font-family: "Raleway", sans-serif;
+  font-weight: 400;
 }
 .header-container .nav-container .nav-menu .nav-item {
   padding: 1rem;
 }
 
 .main-container {
-  margin-left: 0.625rem;
+  margin-top: 4rem;
 }
 .main-container .sect1 {
+  margin-left: 0.625rem;
   display: flex;
 }
 .main-container .sect1 .sect1-article .sect1-title {
   font-size: 2.5rem;
   line-height: 3rem;
-  font-weight: 600;
+  font-weight: 700;
 }
 .main-container .sect1 .sect1-article .sect1-content {
   margin-top: 1rem;
   font-size: 1.3rem;
+  font-family: "Open Sans", sans-serif;
+  font-weight: 400;
   text-align: left;
 }
 .main-container .sect1 .sect1-article .sect1-input,
@@ -32,7 +39,8 @@
   width: 40%;
 }
 .main-container .sect1 .sect1-article .sect1-button {
-  background-color: #c3b3d1;
+  background-color: #3065f8;
+  color: white;
   padding: 0.15rem;
   border: 0px;
 }
@@ -41,6 +49,7 @@
 }
 .main-container .sect2 {
   display: flex;
+  margin-left: 1.6rem;
   background-image: url("../images/bg-curve-desktop.svg");
   background-position: center;
   background-size: cover;
@@ -54,13 +63,82 @@
   font-weight: 600;
 }
 .main-container .sect2 .sect2-article .sect2-content {
-  margin-top: 1rem;
   font-size: 1.3rem;
   text-align: left;
+  line-height: 2rem;
+}
+.main-container .sect2 .sect2-article .testimonial {
+  margin: 0.8rem;
+  padding: 1rem;
+  width: 30rem;
+  background-color: white;
+  box-shadow: 0.5rem 0.5rem 2rem #bfbfbf;
+  border-radius: 5px;
+  line-height: 2.5rem;
+  font-size: 1.1rem;
+  text-align: left;
+}
+.main-container .sect2 .sect2-article .testimonial .testimonial-avatar {
+  display: flex;
+}
+.main-container .sect2 .sect2-article .testimonial .testimonial-avatar .avatar {
+  border-radius: 50%;
+}
+.main-container .sect2 .sect2-article .testimonial .testimonial-avatar .testimonial-profile {
+  margin: 1.5rem;
+}
+.main-container .sect2 .sect2-article .testimonial .testimonial-avatar .testimonial-profile .testimonial-name {
+  font-weight: 600;
 }
 .main-container .sect2 .sect2-img {
   margin-top: 5rem;
   max-width: 40%;
+}
+.main-container .sect3 {
+  background-color: #585989;
+  color: white;
+}
+.main-container .sect3 .sect3-article {
+  margin-top: 5rem;
+}
+.main-container .sect3 .sect3-article .sect3-title {
+  font-size: 1.5rem;
+  line-height: 3rem;
+  font-weight: 600;
+  margin-left: 1.6rem;
+}
+.main-container .sect3 .sect3-article .sect3-content {
+  display: flex;
+}
+.main-container .sect3 .sect3-article .sect3-content .sect3-paragraph {
+  font-size: 0.9rem;
+  font-family: "Open Sans", sans-serif;
+  text-align: left;
+  line-height: 1.5rem;
+  width: 40%;
+  margin-left: 2rem;
+}
+.main-container .sect3 .sect3-article .sect3-content .sect3-mailing {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  margin-left: 2rem;
+}
+.main-container .sect3 .sect3-article .sect3-content .sect3-mailing .sect3-input {
+  width: 150%;
+}
+.main-container .sect3 .sect3-article .sect3-content .sect3-mailing .sect3-button {
+  width: 75%;
+  border: 0;
+  margin-top: 0.5rem;
+  background-color: #3065f8;
+  color: white;
+}
+.main-container .footer {
+  background-color: #070439;
+}
+.main-container .footer .footer-logo {
+  width: 15%;
 }
 
 /*# sourceMappingURL=styles.css.map */
