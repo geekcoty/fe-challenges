@@ -1,0 +1,101 @@
+.global-container {
+	height: 100%;
+	width: 100%;
+	display: flex;
+	flex-direction: column;
+	justify-content: center;
+	align-items: center;
+	font-family: "Open Sans", sans-serif;
+	font-weight: 400;
+	.header {
+		display: flex;
+		align-items: stretch;
+		margin-top: 2.5rem;
+		.menu-nav {
+			margin-left: 50rem;
+			align-self: center;
+			font-weight: 400;
+			font-family: "Raleway", sans-serif;
+			.menu-links {
+				display: flex;
+				.menu-item {
+					padding: 0.5rem;
+				}
+			}
+		}
+	}
+	.about {
+		display: flex;
+		align-items: center;
+		margin-top: 3rem;
+		margin-left: 0.5rem;
+		.about-text {
+			text-align: left;
+			.about-title {
+				font-size: 2.5rem;
+				line-height: 2.6rem;
+				padding-bottom: 1rem;
+			}
+			.about-paragraph {
+				text-align: left;
+				padding-bottom: 1rem;
+				line-height: 1.8rem;
+			}
+			.about-input {
+				width: 40%;
+			}
+			.about-button {
+				width: 40%;
+				padding: 0.15rem;
+				border: 0px;
+				background-color: hsl(272, 25%, 76%);
+			}
+		}
+		.about-img {
+			.img {
+				max-width: 65%;
+				margin-left: 11rem;
+			}
+		}
+	}
+	.test {
+		display: flex;
+		background-image: url("../images/bg-curve-desktop.svg");
+		background-position: center;
+		background-size: cover;
+		background-repeat: no-repeat;
+		align-items: center;
+		margin-top: 3rem;
+		margin-left: 0.5rem;
+	.test-text {
+			text-align: left;
+			.test-title {
+				font-size: 2.5rem;
+				line-height: 2.6rem;
+				padding-bottom: 1rem;
+			}
+			.test-par{
+				.par1,
+				.par2 {
+				text-align: left;
+				padding-bottom: 1rem;
+				line-height: 1.8rem;
+			}
+				.test-link {
+				text-decoration: none;
+				color: hsl(272, 25%, 76%);
+				.test-link:visited {
+					text-decoration: none;
+					color: violet;
+				}
+			}
+		}	
+	}
+	.test-img{
+				.test-draw {
+					max-width: 65%;
+					margin-left: 12rem;
+				}
+			}
+	}
+}

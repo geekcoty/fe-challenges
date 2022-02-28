@@ -1,0 +1,74 @@
+//Breakpoints
+$MobileBreakpoint: 375px;
+$DesktopBreakpoint: 1440px;
+
+$TitleSize: 2.5rem;
+$ImgWidth: 40%;
+
+.header-container{
+  .nav-container{
+    display: flex;
+    margin: 2.5rem;
+    justify-content: space-between;
+    .nav-menu{
+      display: flex;
+      .nav-item{
+        padding: 1rem;
+      }
+    }
+  }
+}
+.main-container{
+    margin-left: 0.625rem;
+  .sect1{
+    display: flex;
+    .sect1-article{
+      .sect1-title{
+        font-size: $TitleSize;
+        line-height: 3rem;
+        font-weight: 600;
+      }
+      .sect1-content{
+      margin-top: 1rem;
+      font-size: 1.3rem;
+      text-align: left;
+      }
+      .sect1-input,
+      .sect1-button{
+        margin-top: 0.4rem;
+        width: 40%;
+      }
+      .sect1-button{
+        background-color: hsl(272, 25%, 76%);
+        padding: 0.15rem;
+        border: 0px;
+      }
+    }
+    .sect1-img{
+      max-width: $ImgWidth;
+    }
+  }
+  .sect2{
+    display: flex;
+    background-image: url("../images/bg-curve-desktop.svg");
+    background-position: center;
+    background-size: cover;
+    .sect2-article {
+       margin-top: 5rem;
+      .sect2-title{
+        font-size: $TitleSize;
+        line-height: 3rem;
+        font-weight: 600;
+      }
+      .sect2-content{
+      margin-top: 1rem;
+      font-size: 1.3rem;
+      text-align: left;
+      }
+    }
+    .sect2-img{
+       margin-top: 5rem;
+      max-width: $ImgWidth;
+    }
+  }
+}

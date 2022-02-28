@@ -1,0 +1,97 @@
+.global-container {
+  height: 100%;
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  font-family: "Open Sans", sans-serif;
+  font-weight: 400;
+}
+.global-container .header {
+  display: flex;
+  align-items: stretch;
+  margin-top: 2.5rem;
+}
+.global-container .header .menu-nav {
+  margin-left: 50rem;
+  align-self: center;
+  font-weight: 400;
+  font-family: "Raleway", sans-serif;
+}
+.global-container .header .menu-nav .menu-links {
+  display: flex;
+}
+.global-container .header .menu-nav .menu-links .menu-item {
+  padding: 0.5rem;
+}
+.global-container .about {
+  display: flex;
+  align-items: center;
+  margin-top: 3rem;
+  margin-left: 0.5rem;
+}
+.global-container .about .about-text {
+  text-align: left;
+}
+.global-container .about .about-text .about-title {
+  font-size: 2.5rem;
+  line-height: 2.6rem;
+  padding-bottom: 1rem;
+}
+.global-container .about .about-text .about-paragraph {
+  text-align: left;
+  padding-bottom: 1rem;
+  line-height: 1.8rem;
+}
+.global-container .about .about-text .about-input {
+  width: 40%;
+}
+.global-container .about .about-text .about-button {
+  width: 40%;
+  padding: 0.15rem;
+  border: 0px;
+  background-color: #c3b3d1;
+}
+.global-container .about .about-img .img {
+  max-width: 65%;
+  margin-left: 11rem;
+}
+.global-container .test {
+  display: flex;
+  background-image: url("../images/bg-curve-desktop.svg");
+  background-position: center;
+  background-size: cover;
+  background-repeat: no-repeat;
+  align-items: center;
+  margin-top: 3rem;
+  margin-left: 0.5rem;
+}
+.global-container .test .test-text {
+  text-align: left;
+}
+.global-container .test .test-text .test-title {
+  font-size: 2.5rem;
+  line-height: 2.6rem;
+  padding-bottom: 1rem;
+}
+.global-container .test .test-text .test-par .par1,
+.global-container .test .test-text .test-par .par2 {
+  text-align: left;
+  padding-bottom: 1rem;
+  line-height: 1.8rem;
+}
+.global-container .test .test-text .test-par .test-link {
+  text-decoration: none;
+  color: #c3b3d1;
+}
+.global-container .test .test-text .test-par .test-link .test-link:visited {
+  text-decoration: none;
+  color: violet;
+}
+.global-container .test .test-img .test-draw {
+  max-width: 65%;
+  margin-left: 12rem;
+}
+
+/*# sourceMappingURL=styles.css.map */

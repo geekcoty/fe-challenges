@@ -1,15 +1,66 @@
-*,
-*:after,
-*:before {
-  box-sizing: border-box;
-  margin: auto;
+.header-container .nav-container {
+  display: flex;
+  margin: 2.5rem;
+  justify-content: space-between;
+}
+.header-container .nav-container .nav-menu {
+  display: flex;
+}
+.header-container .nav-container .nav-menu .nav-item {
+  padding: 1rem;
 }
 
-.global-container {
+.main-container {
+  margin-left: 0.625rem;
+}
+.main-container .sect1 {
   display: flex;
-  background-color: red;
-  font-size: 10rem;
-  text-align: end;
+}
+.main-container .sect1 .sect1-article .sect1-title {
+  font-size: 2.5rem;
+  line-height: 3rem;
+  font-weight: 600;
+}
+.main-container .sect1 .sect1-article .sect1-content {
+  margin-top: 1rem;
+  font-size: 1.3rem;
+  text-align: left;
+}
+.main-container .sect1 .sect1-article .sect1-input,
+.main-container .sect1 .sect1-article .sect1-button {
+  margin-top: 0.4rem;
+  width: 40%;
+}
+.main-container .sect1 .sect1-article .sect1-button {
+  background-color: #c3b3d1;
+  padding: 0.15rem;
+  border: 0px;
+}
+.main-container .sect1 .sect1-img {
+  max-width: 40%;
+}
+.main-container .sect2 {
+  display: flex;
+  background-image: url("../images/bg-curve-desktop.svg");
+  background-position: center;
+  background-size: cover;
+}
+.main-container .sect2 .sect2-article {
+  margin-top: 5rem;
+}
+.main-container .sect2 .sect2-article .sect2-title {
+  font-size: 2.5rem;
+  line-height: 3rem;
+  font-weight: 600;
+}
+.main-container .sect2 .sect2-article .sect2-content {
+  margin-top: 1rem;
+  font-size: 1.3rem;
+  text-align: left;
+}
+.main-container .sect2 .sect2-img {
+  margin-top: 5rem;
+  max-width: 40%;
 }
 
 /*# sourceMappingURL=styles.css.map */
