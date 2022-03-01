@@ -5,6 +5,12 @@
   display: flex;
   justify-content: space-between;
 }
+@media (max-width: 375px) {
+  .header-container .nav-container .nav-logo {
+    max-width: 32%;
+    max-height: 32%;
+  }
+}
 .header-container .nav-container .nav-menu {
   display: flex;
   font-family: "Raleway", sans-serif;
@@ -12,6 +18,11 @@
 }
 .header-container .nav-container .nav-menu .nav-item {
   padding: 1rem;
+}
+@media (max-width: 375px) {
+  .header-container .nav-container .nav-menu .nav-item {
+    font-size: 0.8rem;
+  }
 }
 
 .main-container {

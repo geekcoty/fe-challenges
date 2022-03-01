@@ -11,12 +11,21 @@ $FontBody:"Open Sans", sans-serif;
   .nav-container{
     display: flex;
     justify-content: space-between;
+    .nav-logo{
+      @media(max-width:$MobileBreakpoint){
+        max-width: 32%;
+        max-height: 32%;
+      }
+    }
     .nav-menu{
       display: flex;
       font-family: $FontHeadings;
       font-weight: 400;
       .nav-item{
         padding: 1rem;
+        @media(max-width:$MobileBreakpoint) {
+          font-size: 0.8rem;
+        }
       }
     }
   }
