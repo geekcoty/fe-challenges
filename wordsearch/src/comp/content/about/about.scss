@@ -1,0 +1,11 @@
+.aboutSection{
+  display: flex;
+  flex-direction: column;
+  margin: 1rem;
+  .aboutTitle{
+    text-align: center;
+  }
+  .aboutImg{
+    width: 100%;
+  }
+}

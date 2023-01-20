@@ -1,0 +1,33 @@
+.querySection {
+  display: flex;
+  justify-content: space-evenly;
+  margin: 1rem;
+
+  .inputWord {
+    border: 1px solid dodgerblue;
+    width: 50%;
+    background-color: #11223e;
+    color: #1E90FF;
+  }
+
+  .button {
+    background-color: #11223e;
+    color: #1E90FF;
+    border: 1px solid dodgerblue;
+    width: 25%;
+  }
+}
+
+.resultSection {
+  display: flex;
+  flex-direction: column;
+  width: 100%;
+  height: 100%;
+  overflow: hidden;
+
+  .queryResult {
+    text-align: center;
+    line-height: 1.25em;
+    padding-bottom: 0.25rem;
+  }
+}
