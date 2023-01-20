@@ -1,3 +1,7 @@
+$smallScreen: 480px;
+$mediumScreen: 768px;
+$largeScreen: 1024px;
+
 .querySection {
   display: flex;
   justify-content: space-evenly;
@@ -8,6 +12,11 @@
     width: 50%;
     background-color: #11223e;
     color: #1E90FF;
+      @media screen and (max-width: $mediumScreen) {
+     width: 37%}
+      @media screen and (max-width: $largeScreen) {
+               width: 37%
+             }
   }
 
   .button {

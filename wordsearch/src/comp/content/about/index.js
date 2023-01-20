@@ -8,7 +8,7 @@ class About extends React.Component {
     return (
       <React.Fragment>
         <section className="aboutSection">
-        <p className="aboutTitle"> English word search</p>
+        <p className="aboutTitle"> English Word Search</p>
         <img src={language} alt="Cap America saying language"  className="aboutImg"/>
         </section>
       </React.Fragment>

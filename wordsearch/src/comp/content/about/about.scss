@@ -1,11 +1,18 @@
+$smallScreen: 480px;
+$mediumScreen: 768px;
+$largeScreen: 1024px;
+
 .aboutSection{
   display: flex;
   flex-direction: column;
   margin: 1rem;
-  .aboutTitle{
-    text-align: center;
-  }
-  .aboutImg{
-    width: 100%;
+  .aboutTitle
+{
+  text-align: center;
+}  .aboutImg{
+    width: 75%;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
   }
 }
